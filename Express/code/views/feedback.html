@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>留言板</title>
+</head>
+<body>
+    <h1>歡迎來到留言版</h1>
+    <a href="/">回首頁</a>
+    <div>
+        <form action="/feedback" method="POST">
+            <div>
+                <input type="text" name="name" placeholder="請輸入名稱">
+            </div>
+            <div>
+                <textarea name="message" cols="30" rows="10" placeholder="請輸入留言"></textarea>
+            </div>
+            <div>
+                <button type="submit">送出</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
